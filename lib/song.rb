@@ -6,5 +6,11 @@ class Song
     @name = name
   end 
 
+  def count
+    @@count
+  end 
+
+  def genres
+    @genre.uniq
   
 end 
