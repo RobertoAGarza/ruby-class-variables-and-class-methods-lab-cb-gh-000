@@ -16,8 +16,8 @@ class Song
   end
 
   def genres
-    @@genres << @genre
-
+    @@genres.uniq
+    
   end
 
 end
