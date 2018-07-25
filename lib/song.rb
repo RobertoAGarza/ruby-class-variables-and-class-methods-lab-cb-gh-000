@@ -24,9 +24,12 @@ class Song
     @@artists.uniq
   end
 
-  def genre_count
-    genre_count = {
-      :genre, :count
-    }
+  def self.genre_count
+    
+  end
 
+  def self.artist_count 
+    
+  end 
+   
 end
